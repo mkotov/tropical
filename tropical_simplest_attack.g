@@ -225,11 +225,11 @@ end;
 
 TestSuite := function(numberOfTests)
   local st, et, mm, mM, D, pm, pM, n, i, ok, fl;
-  mm := 0;
+  mm := -10^10;
   mM := 10^10;
   D := 10;
-  pm := -10^10;
-  pM := 10^10;
+  pm := -1000;
+  pM := 1000;
   n := 10;
   st := Runtime();
   ok := 0;
